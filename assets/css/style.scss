@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Crimson Text";
+  src: url("../fonts/CrimsonText-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato Regular";
+  src: url("../fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato Bold";
+  src: url("../fonts/Lato-Bold.ttf") format("truetype");
+}
+
+@import "variables/color";
+@import "components/navbar";
+
+body {
+  background-color: #dadbe8;
+  min-width: 100vw;
+
+  .main-content {
+    min-width: 100vw;
+
+    .title-container {
+      background-color: #101824;
+      min-width: 100%;
+      padding-left: 6vw !important;
+
+      .page-title {
+        color: #dadbe8;
+        font-family: "Lato Bold";
+        font-weight: 100;
+        margin: 0;
+      }
+    }
+  }
+
+  .breadcrumb-container {
+    background-color: #101824 !important;
+    min-width: 100%;
+    padding: 0vw 5vw 0vw 5vw !important;
+
+    .breadcrumb {
+      background-color: transparent;
+
+      .breadcrumb-item {
+        color: #dadbe8 !important;
+      }
+    }
+  }
+}
