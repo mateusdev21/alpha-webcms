@@ -15,6 +15,7 @@
 
 @import "variables/color";
 @import "components/navbar";
+@import "components/group-list";
 
 body {
   background-color: #dadbe8;
@@ -40,7 +41,7 @@ body {
   .breadcrumb-container {
     background-color: #101824 !important;
     min-width: 100%;
-    padding: 0vw 5vw 0vw 5vw !important;
+    padding: 0vw 6vw 0vw 6vw !important;
 
     .breadcrumb {
       background-color: transparent;

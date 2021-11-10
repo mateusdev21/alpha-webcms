@@ -1,0 +1,15 @@
+.list-group {
+    border: none !important;
+    font-family: "Lato Regular";
+
+    .list-group-item {
+        color: #101824;
+        text-decoration: none;
+    }
+
+    .list-group-item.active {
+        background-color: #1c5478;
+        color: #dadbe8;
+        border: none !important;
+    }
+}

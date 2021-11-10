@@ -169,6 +169,22 @@
   background-color: #1c5478;
 }
 
+.list-group {
+  border: none !important;
+  font-family: "Lato Regular";
+}
+
+.list-group .list-group-item {
+  color: #101824;
+  text-decoration: none;
+}
+
+.list-group .list-group-item.active {
+  background-color: #1c5478;
+  color: #dadbe8;
+  border: none !important;
+}
+
 body {
   background-color: #dadbe8;
   min-width: 100vw;
@@ -194,7 +210,7 @@ body .main-content .title-container .page-title {
 body .breadcrumb-container {
   background-color: #101824 !important;
   min-width: 100%;
-  padding: 0vw 5vw 0vw 5vw !important;
+  padding: 0vw 6vw 0vw 6vw !important;
 }
 
 body .breadcrumb-container .breadcrumb {
