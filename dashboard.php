@@ -91,7 +91,7 @@ include "templates/navbar.php";
                         '<th scope="row">' + i + '</th>' +
                         '<td>' + data[i - 1].username + '</td>' +
                         '<td>' + data[i - 1].email + '</td>' +
-                        '<td>@' + data[i - 1].logged_in_at + '</td>' +
+                        '<td>' + data[i - 1].logged_in_at + '</td>' +
                         '</tr>';
                     $("#table-latest-login").find("tbody").append(table_row);
                 };

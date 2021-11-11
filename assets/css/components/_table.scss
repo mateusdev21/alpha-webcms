@@ -1,9 +1,22 @@
-table {
+#table-latest-login {
     text-align: center !important;
     thead {
         text-align: center !important;
     }
     tbody > tr > th {
         text-align: center !important;
+    }
+}
+
+#table-pages {
+    thead {
+        text-align: left !important;
+    }
+    tbody > tr > td {
+        text-align: left !important;
+    }
+    tbody > tr > th {
+        text-align: center !important;
+        font-weight: 400;
     }
 }

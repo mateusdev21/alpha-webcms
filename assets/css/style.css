@@ -203,16 +203,65 @@
   color: #ffbe40;
 }
 
-table {
+#table-latest-login {
   text-align: center !important;
 }
 
-table thead {
+#table-latest-login thead {
   text-align: center !important;
 }
 
-table tbody > tr > th {
+#table-latest-login tbody > tr > th {
   text-align: center !important;
+}
+
+#table-pages thead {
+  text-align: left !important;
+}
+
+#table-pages tbody > tr > td {
+  text-align: left !important;
+}
+
+#table-pages tbody > tr > th {
+  text-align: center !important;
+  font-weight: 400;
+}
+
+.btn-create {
+  background-color: #ffbe40;
+  color: #ffffff;
+  border: 1px solid #ffbe40;
+}
+
+.btn-create:hover {
+  background-color: #fcdc9e;
+  color: #101824;
+  border: 1px solid #fcdc9e;
+}
+
+.btn-close {
+  background-color: #fc6161;
+  color: #ffffff;
+  border: 1px solid #fc6161;
+}
+
+.btn-close:hover {
+  background-color: #fd2727;
+  color: #ffffff;
+  border: 1px solid #fd2727;
+}
+
+.btn-submit {
+  background-color: #1bdf59;
+  color: #ffffff;
+  border: 1px solid #1bdf59;
+}
+
+.btn-submit:hover {
+  background-color: #10973b;
+  color: #ffffff;
+  border: 1px solid #10973b;
 }
 
 body {
