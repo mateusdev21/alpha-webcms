@@ -16,10 +16,13 @@
 @import "variables/color";
 @import "components/navbar";
 @import "components/group-list";
+@import "components/card";
+@import "components/table";
 
 body {
   background-color: #dadbe8;
-  min-width: 100vw;
+  min-width: 90vw;
+  overflow-x: hidden;
 
   .main-content {
     min-width: 100vw;
@@ -36,12 +39,21 @@ body {
         margin: 0;
       }
     }
+
+    h6 {
+      font-family: "Lato Bold";
+      font-weight: 100;
+    }
+
+    .progress-bar {
+      background-color: #1c5478;
+    }
   }
 
   .breadcrumb-container {
     background-color: #101824 !important;
     min-width: 100%;
-    padding: 0vw 6vw 0vw 6vw !important;
+    padding: 0vw 4.5vw 0vw 4.5vw !important;
 
     .breadcrumb {
       background-color: transparent;

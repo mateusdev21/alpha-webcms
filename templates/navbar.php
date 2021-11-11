@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md pt-0 pb-0">
+<nav class="navbar fixed-top navbar-expand-md pt-0 pb-0">
     <ul class="navbar-nav mr-auto menu">
         <a class="navbar-brand pt-1" href="#">
             <img class="mr-2 ml-2" src="assets/img/alpha.png" width="30">
@@ -28,7 +28,7 @@
         </li>
     </ul>
 </nav>
-<div class="container container-fluid breadcrumb-container">
+<div class="container container-fluid breadcrumb-container mt-5">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item text-capitalize active" aria-current="page"><?= $page ?></li>

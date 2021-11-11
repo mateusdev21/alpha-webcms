@@ -6,7 +6,7 @@ include "templates/navbar.php";
 <div class="container container-fluid main-content m-0 p-0">
     <div class="row m-0">
         <div class="col-md-3">
-            <?php include "templates/list-group.php"; ?>
+            <?php include "templates/side-content.php"; ?>
         </div>
         <div class="col-md-9"></div>
     </div>

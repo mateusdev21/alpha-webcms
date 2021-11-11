@@ -185,9 +185,40 @@
   border: none !important;
 }
 
+.badge {
+  background-color: #ffbe40 !important;
+  color: #ffffff;
+}
+
+.dashboard-card .card-header {
+  background-color: #1c5478 !important;
+  color: #dadbe8;
+  font-family: "Lato Bold";
+  font-size: 1.2rem;
+}
+
+.overview-card {
+  background-color: #101824 !important;
+  border: none !important;
+  color: #ffbe40;
+}
+
+table {
+  text-align: center !important;
+}
+
+table thead {
+  text-align: center !important;
+}
+
+table tbody > tr > th {
+  text-align: center !important;
+}
+
 body {
   background-color: #dadbe8;
-  min-width: 100vw;
+  min-width: 90vw;
+  overflow-x: hidden;
 }
 
 body .main-content {
@@ -207,10 +238,19 @@ body .main-content .title-container .page-title {
   margin: 0;
 }
 
+body .main-content h6 {
+  font-family: "Lato Bold";
+  font-weight: 100;
+}
+
+body .main-content .progress-bar {
+  background-color: #1c5478;
+}
+
 body .breadcrumb-container {
   background-color: #101824 !important;
   min-width: 100%;
-  padding: 0vw 6vw 0vw 6vw !important;
+  padding: 0vw 4.5vw 0vw 4.5vw !important;
 }
 
 body .breadcrumb-container .breadcrumb {
